@@ -6,6 +6,7 @@ license that can be found in the LICENSE file.
 
 :host { 
   display: block;
+  position: relative;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   height: 40px;
@@ -63,4 +64,17 @@ polymer-ui-icon {
 #label {
   vertical-align: middle;
   padding-right: 20px;
+}
+
+::content > a, #link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -1px;
+}
+
+#link[hidden] {
+  display: none;
 }
