@@ -66,6 +66,7 @@ polymer-ui-icon {
   padding-right: 20px;
 }
 
+/*@polyfill :host #label > a, #link */
 ::content > a, #link {
   position: absolute;
   top: 0;
