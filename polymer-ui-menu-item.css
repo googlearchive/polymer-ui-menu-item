@@ -67,7 +67,7 @@ polymer-ui-icon {
 }
 
 /*@polyfill :host #label > a, #link */
-::content > a, #link {
+content /content/ a, #link {
   position: absolute;
   top: 0;
   right: 0;
